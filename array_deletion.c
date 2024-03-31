@@ -1,5 +1,5 @@
 #include <stdio.h>
-void insertion(int arr[],int size,int index,int capacity){
+void deletion(int arr[],int size,int index,int capacity){
     if (index > capacity)
     {
         printf("you exceded the capacity of array\n");
@@ -18,7 +18,7 @@ int main(){
     printf("enter the the on which you want deletion\n");
     scanf("%d",&index);
     
-    insertion(arr,size,index,100);
+    deletion(arr,size,index,100);
     size--;
 
     for (int j = 0; j < size; j++)

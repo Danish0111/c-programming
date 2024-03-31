@@ -4,11 +4,8 @@ int main(){
     int *ptr = arr;
     for (int i = 0; i < 5; i++)
     {
-        *(ptr) += 1;
-        printf("value at index %d is %d\n", i, *ptr);
-        
+        printf("ptr[%d] = %d\n", i, ptr[i]);
     }
-    
-    
-return 0;
+
+    return 0;
 }
