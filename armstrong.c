@@ -4,7 +4,7 @@ int main(){
     printf("enter a number: ");
     scanf("%d",&n);
     t=n;
-    while(n>100){
+    while(n != 0){
         rem = n%10;
         arm = (rem*rem*rem)+arm;
         n = n/10;
