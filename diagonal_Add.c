@@ -19,9 +19,9 @@ int main()
     {
         for (int j = 0; j < 3; j++)
         {
-            printf("%d ", arr[i][j]);
+            printf("%d  ", arr[i][j]);
         }
-        printf("\n");
+        printf("\n\n");
         
     }
 
